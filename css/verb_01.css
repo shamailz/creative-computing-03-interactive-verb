@@ -43,4 +43,6 @@ body {
   transform: skewY(45deg);
   transform: scaleX(1.5);
   transform: scaleY(1.5);
+  transform: translateX(50px);
+  transform: translateY(50px);
 }
