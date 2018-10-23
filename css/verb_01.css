@@ -33,10 +33,6 @@ body {
   background: #c2b3fc;
   width: 300px;
   height: 500px;
-  margin-bottom: 50%;
-  margin-top: 50%;
-  margin-left: 50%;
-  margin-right: 50%;
 }
 @keyframes down {
   0% {
