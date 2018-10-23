@@ -41,6 +41,7 @@ body {
   40% {
     transform: scale(0.6);
     border-radius: 250px / 450px;
+    background-color: #edfcb3;
   }
   65% {
     transform: scale(0.4);
