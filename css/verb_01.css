@@ -44,11 +44,11 @@ body {
   }
   50% {
     transform: scale(0.4);
-    border-radius: 200px / 400px;
+    border-radius: 200px / 350px;
   }
   75% {
     transform: scale(0.2);
-    border-radius: 150px / 350px;
+    border-radius: 150px / 250px;
   }
   100% {
     transform:scale(0.0);
