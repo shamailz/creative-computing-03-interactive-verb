@@ -43,7 +43,7 @@ body {
     border-radius: 250px / 450px;
     background-color: #edfcb3;
   }
-  60% {
+  65% {
     transform: scale(0.4);
     border-radius: 200px / 350px;
     background-color: #c2b3fc;
