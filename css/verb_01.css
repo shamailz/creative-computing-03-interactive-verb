@@ -38,15 +38,15 @@ body {
   0% {
     transform: scale(0.8);
   }
-  25% {
+  50% {
     transform: scale(0.6);
     border-radius: 250px / 450px;
   }
-  50% {
+  70% {
     transform: scale(0.4);
     border-radius: 200px / 350px;
   }
-  75% {
+  90% {
     transform: scale(0.2);
     border-radius: 150px / 250px;
   }
