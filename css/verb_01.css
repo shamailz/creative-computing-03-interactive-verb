@@ -43,33 +43,28 @@ body {
     border-radius: 250px / 450px;
     background-color: #edfcb3;
   }
-  45% {
+  65% {
     transform: scale(0.4);
     border-radius: 200px / 350px;
     background-color: #c2b3fc;
   }
-  65% {
+  85% {
     transform: scale(0.2);
     border-radius: 150px / 250px;
     background-color: #edfcb3;
   }
-   85% {
-    transform: scale(0.4);
-    border-radius: 200px / 350px;
-    background-color: #c2b3fc;
+  100% {
+    transform:scale(0.0);
+    border-radius: 150px/ 350px;
   }
-    100% {
-    transform: scale(0.6);
-    border-radius: 250px / 450px;
-    background-color: #edfcb3;
-  }
+}
 
 
 .content:hover .shape {
   width: 300px;
   height: 500px;
   animation-name: down;
-  animation-duration: 5s;
+  animation-duration: 7s;
 }
 
 
