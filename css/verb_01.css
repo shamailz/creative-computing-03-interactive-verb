@@ -38,26 +38,31 @@ body {
   0% {
     transform: scale(0.8);
   }
-  40% {
+  20% {
     transform: scale(0.6);
     border-radius: 250px / 450px;
     background-color: #edfcb3;
   }
-  65% {
+  45% {
     transform: scale(0.4);
     border-radius: 200px / 350px;
     background-color: #c2b3fc;
   }
-  85% {
+  65% {
     transform: scale(0.2);
     border-radius: 150px / 250px;
     background-color: #edfcb3;
   }
-  100% {
-    transform:scale(0.0);
-    border-radius: 150px/ 350px;
+   85% {
+    transform: scale(0.4);
+    border-radius: 200px / 350px;
+    background-color: #c2b3fc;
   }
-}
+    100% {
+    transform: scale(0.6);
+    border-radius: 250px / 450px;
+    background-color: #edfcb3;
+  }
 
 
 .content:hover .shape {
