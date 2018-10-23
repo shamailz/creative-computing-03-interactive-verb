@@ -38,6 +38,7 @@ body {
   width: 300px;
   height: 500px;
   border-radius: 150px / 250px;
+  transition-delay: 1s;
 }
 
 .transforms {
