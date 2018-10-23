@@ -50,6 +50,7 @@ body {
   85% {
     transform: scale(0.2);
     border-radius: 150px / 250px;
+    background-color: #edfcb3;
   }
   100% {
     transform:scale(0.0);
