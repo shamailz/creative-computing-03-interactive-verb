@@ -41,7 +41,7 @@ body {
   20% {
     transform: scale(0.6);
     border-radius: 250px / 450px;
-    background-color: hsl(56, 50%, 67%);
+    background-color: hsl(56, 70%, 69%);
   }
   65% {
     transform: scale(0.4);
@@ -51,7 +51,7 @@ body {
   85% {
     transform: scale(0.2);
     border-radius: 150px / 250px;
-    background-color: hsl(56, 50%, 67%);
+    background-color: hsl(56, 70%, 69%);
   }
   100% {
     transform:scale(0.0);
