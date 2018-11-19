@@ -40,14 +40,22 @@ function hslColor(h, s, l) {
 
   return color;
 }
-function hslColor(h, s, l) {  
-  var hue = h;
-  var saturation = s + "%";
-  var luminance = l + "%";
 
-  var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
 
-  return color;
-}
+
+
+
+var shape = document.querySelector(".shape");
+
+var width = randomNumber(150, 700); 
+var height = randomNumber(250,1000);
+
+shape.style.width = width + "px";
+shape.style.height= height + "px";
+
+var h = randomNumber(0, 179);
+
+shape.style.background = hslColor (h, 90, 50);
+shape.style.borderColor = hslColor (h, 100, 50);
 
 
