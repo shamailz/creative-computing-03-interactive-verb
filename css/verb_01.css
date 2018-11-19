@@ -17,10 +17,10 @@ body {
 .center {
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 70%;
   transform: translate(-50%,-50%);
-  height: 100px;
-  width: 30px;
+  height: auto;
+  width: auto;
 }
 
 .content {
