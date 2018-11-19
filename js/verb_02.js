@@ -48,30 +48,33 @@ function hslColor(h, s, l) {
 var container = document.querySelector(".content");
 
 
-// add 500 divs with the class "shape" to it
-for (var i = 0; i < 500; i++) {  
+for ( var i = 0; i < 200; i++) {
+  // create a div
   var shape = document.createElement('div');
+
+  //add class "shape" to div
   shape.classList.add('shape');
 
-  // add a random animation duration and delay to each shape
-  shape.style.animationDelay = randomNumber(0, 5000) + 'ms';
-  shape.style.animationDuration = randomNumber(1000, 10000) + 'ms';
+  // select container div
+  var container = document.querySelector('.content');
 
-  container.appendChild(shape);
+  // add a div with class "shape" to container div
+  container.append(shape);
 }
 
-// select all shapes on the page
+// Selects all divs with class "shape"
 var shapes = document.querySelectorAll('.shape');
 
-// add interactions to each shape
-shapes.forEach(function(shape) {
-  // when the cursor is over the shape, add a modifier class
-  // when the cursor is outside of the shape, remove the modifier class
-  shape.addEventListener('mouseover', function() {
-    if (shape.classList.contains('shape-interaction')) {
-      shape.classList.remove('shape-interaction');
-    } else {
-      shape.classList.add('shape-interaction');
-    }
-  });
+// Loop over all of the shapes
+shapes.forEach( function(shape, i) {
+  //what happens to each shape
+
+var percentage = i / 200 * 100;
+
+  var color = hslColor( i + 120/ 4, percentage,50) ;
+  shape.style.background=color;
+
+  shape.style.border = i + 14
 });
+
+
