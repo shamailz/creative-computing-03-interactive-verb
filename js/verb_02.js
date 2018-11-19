@@ -53,9 +53,10 @@ var height = randomNumber(250,1000);
 shape.style.width = width + "px";
 shape.style.height= height + "px";
 
-var h = randomNumber(0, 179);
+var h = randomNumber(0, 379);
+var s = randomNumber(0, 379);
+var l = randomNumber(0, 379);
 
 shape.style.background = hslColor (h, s, l);
-shape.style.borderColor = hslColor (h, s, l);
 
 
