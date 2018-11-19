@@ -45,36 +45,20 @@ function hslColor(h, s, l) {
 
 
 
-var container = document.querySelector(".content");
-
-
-for ( var i = 0; i < 200; i++) {
-  // create a div
-  var shape = document.createElement('div');
-
-  //add class "shape" to div
-  shape.classList.add('shape');
-
-  // select container div
-  var container = document.querySelector('.content');
-
-  // add a div with class "shape" to container div
-  container.append(shape);
+/* A function to return random number from min to max */
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-// Selects all divs with class "shape"
-var shapes = document.querySelectorAll('.shape');
-
-// Loop over all of the shapes
-shapes.forEach( function(shape, i) {
-  //what happens to each shape
-
-var percentage = i / 200 * 100;
-
-  var color = hslColor( i + 120/ 4, percentage,50) ;
-  shape.style.background=color;
-
-  shape.style.border = i + 14
-});
+setInterval(function() {
+    var element = document.getElementById("box");
+    //generate random red, green and blue intensity
+    var r = getRandomInt(0, 255);
+    var g = getRandomInt(0, 255);
+    var b = getRandomInt(0, 255);
+    
+    element.style.backgroundColor = "rgb(" + r + "," + g + "," + b + ")";
+    document.getElementById("colorvalue").innerHTML = r + " " + g + " " + b;
+}, 1500);
 
 
