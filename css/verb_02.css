@@ -26,4 +26,56 @@ body {
 .content {
   height: 100%;
   width: 100%;
+  padding: 20px;
+}
+
+.shape {
+  background: #c2b3fc;
+  width: 300px;
+  height: 500px;
+}
+@keyframes down {
+  0% {
+    transform: scale(0.8);
+  }
+  20% {
+    transform: scale(0.6);
+    border-radius: 250px / 450px;
+    background-color: #edfcb3;
+  }
+  65% {
+    transform: scale(0.4);
+    border-radius: 200px / 350px;
+    background-color: #c2b3fc;
+  }
+  85% {
+    transform: scale(0.2);
+    border-radius: 150px / 250px;
+    background-color: #edfcb3;
+  }
+  100% {
+    transform:scale(0.0);
+    border-radius: 150px/ 350px;
+  }
+}
+
+
+.content:hover .shape {
+  width: 300px;
+  height: 500px;
+  animation-name: down;
+  animation-duration: 5s;
+}
+
+
+.transforms {
+  transform: rotateZ(45deg);
+  transform: rotateX(45deg);
+  transform: rotateY(45deg);
+  transform: skewX(45deg);
+  transform: skewY(45deg);
+  transform: scaleX(1.5);
+  transform: scaleY(1.5);
+  transform: translateX(50px);
+  transform: translateY(50px);
 }
