@@ -45,18 +45,33 @@ function hslColor(h, s, l) {
 
 
 
-var shape = document.querySelector(".shape");
-
-var width = randomNumber(150, 700); 
-var height = randomNumber(250,1000);
-
-shape.style.width = width + "px";
-shape.style.height= height + "px";
-
-var h = randomNumber(0, 379);
-var s = randomNumber(0, 100) + "%";
-var l = randomNumber(0, 100) + "%";
-
-shape.style.background = hslColor (h, s, l);
+var container = document.querySelector(".content");
 
 
+// add 500 divs with the class "shape" to it
+for (var i = 0; i < 500; i++) {  
+  var shape = document.createElement('div');
+  shape.classList.add('shape');
+
+  // add a random animation duration and delay to each shape
+  shape.style.animationDelay = randomNumber(0, 5000) + 'ms';
+  shape.style.animationDuration = randomNumber(1000, 10000) + 'ms';
+
+  container.appendChild(shape);
+}
+
+// select all shapes on the page
+var shapes = document.querySelectorAll('.shape');
+
+// add interactions to each shape
+shapes.forEach(function(shape) {
+  // when the cursor is over the shape, add a modifier class
+  // when the cursor is outside of the shape, remove the modifier class
+  shape.addEventListener('mouseover', function() {
+    if (shape.classList.contains('shape-interaction')) {
+      shape.classList.remove('shape-interaction');
+    } else {
+      shape.classList.add('shape-interaction');
+    }
+  });
+});
