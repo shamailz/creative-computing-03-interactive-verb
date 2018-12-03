@@ -40,19 +40,7 @@ function hslColor(h, s, l) {
 
   return color;
 }
-var shapes = document.querySelectorAll('.shape');
-
-// Loop over all of the shapes
-shapes.forEach( function(shape, i) {
-  //what happens to each shape
-
-var percentage = i / 200 * 100;
-
-  var color = hslColor( i + 120/ 4, percentage,50) ;
-  shape.style.background=color;
-
-});
-
+var hue = 'hsl(' + (Math.floor(Math.random())) + ',' + (Math.floor(Math.random() )) + ',' + (Math.floor(Math.random() )) + ')';
 
 
 
