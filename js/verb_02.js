@@ -51,7 +51,6 @@ var percentage = i / 200 * 100;
   var color = hslColor( i + 120/ 4, percentage,50) ;
   shape.style.background=color;
 
-  shape.style.border = i + 14
 });
 
 
