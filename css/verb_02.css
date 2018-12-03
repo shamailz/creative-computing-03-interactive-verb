@@ -41,17 +41,17 @@ body {
   20% {
     transform: scale(0.6);
     border-radius: 250px / 450px;
-    background-color: #edfcb3;
+
   }
   65% {
     transform: scale(0.4);
     border-radius: 200px / 350px;
-    background-color: hsl(252, 92%, 85%);
+ 
   }
   85% {
     transform: scale(0.2);
     border-radius: 150px / 250px;
-    background-color: #edfcb3;
+ 
   }
   100% {
     transform:scale(0.0);
