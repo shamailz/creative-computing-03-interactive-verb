@@ -37,10 +37,16 @@ function hslColor(h, s, l) {
   var luminance = l + "%";
 
   var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
+  var R=(Math.floor(Math.random() * 255);
+    var G=(Math.floor(Math.random() * 255);
+    var B=(Math.floor(Math.random() * 255);
+    var randColor='rgb(' + R +', ' + G + ',' + B +')';
+
+    context.fillStyle=randColor;
 
   return color;
 }
-var hue = 'hsl(' + (Math.floor(Math.random() * 360)) + ',' + (Math.floor(Math.random() * 360 )) + ',' + (Math.floor(Math.random() *360 )) + ')';
+
 
 
 
