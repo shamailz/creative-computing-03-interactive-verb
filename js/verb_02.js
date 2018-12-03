@@ -31,21 +31,15 @@ function randomFloat (min, max) {
   return parseFloat(value.toFixed(2));
 }
 
-for ( var i = 0; i < 200; i++) {
-  // create a div
-  var shape = document.createElement('div');
+function hslColor(h, s, l) {  
+  var hue = h;
+  var saturation = s + "%";
+  var luminance = l + "%";
 
-  //add class "shape" to div
-  shape.classList.add('shape');
+  var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
 
-  // select container div
-  var container = document.querySelector('.content');
-
-  // add a div with class "shape" to container div
-  container.append(shape);
+  return color;
 }
-
-// Selects all divs with class "shape"
 var shapes = document.querySelectorAll('.shape');
 
 // Loop over all of the shapes
@@ -59,7 +53,6 @@ var percentage = i / 200 * 100;
 
   shape.style.border = i + 14
 });
-
 
 
 
