@@ -31,15 +31,34 @@ function randomFloat (min, max) {
   return parseFloat(value.toFixed(2));
 }
 
-function hslColor(h, s, l) {  
-  var hue = h;
-  var saturation = s + "%";
-  var luminance = l + "%";
+for ( var i = 0; i < 200; i++) {
+  // create a div
+  var shape = document.createElement('div');
 
-  var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
+  //add class "shape" to div
+  shape.classList.add('shape');
 
-  return color;
+  // select container div
+  var container = document.querySelector('.content');
+
+  // add a div with class "shape" to container div
+  container.append(shape);
 }
+
+// Selects all divs with class "shape"
+var shapes = document.querySelectorAll('.shape');
+
+// Loop over all of the shapes
+shapes.forEach( function(shape, i) {
+  //what happens to each shape
+
+var percentage = i / 200 * 100;
+
+  var color = hslColor( i + 120/ 4, percentage,50) ;
+  shape.style.background=color;
+
+  shape.style.border = i + 14
+});
 
 
 
