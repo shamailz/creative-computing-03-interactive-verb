@@ -40,7 +40,7 @@ function hslColor(h, s, l) {
 
   return color;
 }
-var hue = 'hsl(' + (Math.floor(Math.random())) + ',' + (Math.floor(Math.random() )) + ',' + (Math.floor(Math.random() )) + ')';
+var hue = 'hsl(' + (Math.floor(Math.random() * 360)) + ',' + (Math.floor(Math.random() * 360 )) + ',' + (Math.floor(Math.random() *360 )) + ')';
 
 
 
