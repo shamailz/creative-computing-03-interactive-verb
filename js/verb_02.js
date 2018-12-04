@@ -1,9 +1,8 @@
+
 /*
   Returns a random whole number between minimum value and maximum value
-
   For example, calling randomNumber(0, 255);
   will return a random whole number between 0 and 255.
-
   Source: https://stackoverflow.com/questions/1527803/generating-random-whole-numbers-in-javascript-in-a-specific-range
 */
 function randomNumber (min, max) {
@@ -12,10 +11,8 @@ function randomNumber (min, max) {
 
 /*
   Returns a random floating point number between minimum value and maximum value
-
   For example, calling randomFloat(0, 1);
   will return a random floating between 0.0 and 1.0.
-
   Source: https://stackoverflow.com/questions/9724404/random-floating-point-double-in-inclusive-range
 */
 function randomFloat (min, max) {
@@ -31,6 +28,11 @@ function randomFloat (min, max) {
   return parseFloat(value.toFixed(2));
 }
 
+/* 
+  Returns a color string in the form of "hsl(100, 50%, 50%)"
+  For example, calling color(10, 100, 40);
+  will return a string "hsl(10, 100%, 40%)"
+*/
 function hslColor(h, s, l) {  
   var hue = h;
   var saturation = s + "%";
@@ -57,8 +59,11 @@ TO DO:
 
 var shape = document.querySelector(".shape");
 
-var backgroundColor = randomNumber( hslColor ("hue", "saturation", "luminance")); 
-shape.style.background = hue + randomNumber;
+var width = randomNumber(150, 700); 
+var height = randomNumber(250,1000);
+
+shape.style.width = width + "px";
+shape.style.height= height + "px";
 
 var h = randomNumber(0, 179);
 
