@@ -59,9 +59,9 @@ TO DO:
 
 var shape = document.querySelector(".shape");
 
-var h = randomNumber(0, 179);
-var s = randomNumber(0, 100);
-var l = randomNumber(0, 100);
+var h = randomNumber(1, 179);
+var s = randomNumber(1, 100);
+var l = randomNumber(1, 100);
 
 shape.style.background = hslColor (h, s, l);
 
