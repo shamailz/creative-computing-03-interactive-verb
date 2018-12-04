@@ -59,19 +59,11 @@ TO DO:
 
 var shape = document.querySelector(".shape");
 
-var width = randomNumber(150, 700); 
-var height = randomNumber(250,1000);
-
-shape.style.width = width + "px";
-shape.style.height= height + "px";
-
 var h = randomNumber(0, 179);
+var s = randomNumber(0, 100);
+var l = randomNumber(0, 100);
 
-shape.style.background = hslColor (h, 90, 50);
-shape.style.borderColor = hslColor (h, 100, 50);
-
-
-
+shape.style.background = hslColor (h, s, l);
 
 
 
