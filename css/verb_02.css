@@ -30,7 +30,7 @@ body {
   padding: 20px;
 }
 
-.shape {
+.bye {
   background: hsl(252, 92%, 85%);
   width: 300px;
   height: 500px;
@@ -67,5 +67,4 @@ body {
   animation-name: down;
   animation-duration: 5s;
 }
-
 
