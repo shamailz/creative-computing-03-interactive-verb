@@ -34,7 +34,6 @@ body {
   background: hsl(252, 92%, 85%);
   width: 300px;
   height: 500px;
-  position: width/2;
 }
 @keyframes down {
   0% {
