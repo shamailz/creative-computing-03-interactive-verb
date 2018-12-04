@@ -47,8 +47,11 @@ body {
   text-align: center;
   color: hsl(252, 92%, 85%);
 }
-a{
+a:link{
   color: hsl(252, 92%, 85%);
+}
+a:visited{
+  color: hsl(252, 92%, 65%);
 }
 
 
