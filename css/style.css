@@ -12,6 +12,7 @@ body {
   padding: 0;
   min-width: 100vw;
   min-height: 100vh;
+  font-family: 'Fredoka One', cursive;
 }
 
 .center {
@@ -32,4 +33,14 @@ body {
   font-size: 200px;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
 
