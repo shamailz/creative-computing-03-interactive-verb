@@ -12,6 +12,7 @@ body {
   padding: 0;
   min-width: 100vw;
   min-height: 100vh;
+  background-color: #f8cedd;
 }
 
 .center {
