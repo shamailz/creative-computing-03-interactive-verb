@@ -27,7 +27,7 @@ body {
 .content {
   height: 100%;
   width: 100%;
-
+  color: hsl(252, 92%, 85%);
 }
 
 .content h1{
