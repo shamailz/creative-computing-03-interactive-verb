@@ -57,15 +57,13 @@ TO DO:
 
 var shape = document.querySelector(".shape");
 
-var width = randomNumber(150, 700); 
-var height = randomNumber(250,1000);
-
-shape.style.width = width + "px";
-shape.style.height= height + "px";
+var backgroundColor = randomNumber( hslColor ("hue", "saturation", "luminance")); 
+shape.style.background = hue + randomNumber;
 
 var h = randomNumber(0, 179);
 
 shape.style.background = hslColor (h, 90, 50);
+shape.style.borderColor = hslColor (h, 100, 50);
 
 
 
