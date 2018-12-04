@@ -29,6 +29,15 @@ body {
   width: 100%;
 }
 
+.content h1{
+  font-size: 50px
+}
+.content h2 {
+  font-size: 25px
+}
+.content h3 {
+  font-size: 18px
+}
 .verb h1 {
   font-size: 200px;
   text-align: center;
