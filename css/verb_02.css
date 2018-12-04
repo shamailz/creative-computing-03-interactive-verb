@@ -30,7 +30,7 @@ body {
   padding: 20px;
 }
 
-.bye {
+.shape {
   background: hsl(252, 92%, 85%);
   width: 300px;
   height: 500px;
@@ -61,7 +61,7 @@ body {
 }
 
 
-.content:hover .bye {
+.content:hover .shape {
   width: 300px;
   height: 500px;
   animation-name: down;

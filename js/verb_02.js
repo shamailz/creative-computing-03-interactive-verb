@@ -43,7 +43,7 @@ function hslColor(h, s, l) {
   return color;
 }
 
-var bye = document.querySelector(".bye");
+var shape = document.querySelector(".shape");
 
 var h = randomNumber(0, 359);
 var s = randomNumber(0, 100);
