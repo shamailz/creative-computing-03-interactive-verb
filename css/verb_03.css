@@ -64,5 +64,6 @@ body {
   height: 75px;
   animation-name: down;
   animation-duration: .5s;
+  animation: infinite;
 }
 
