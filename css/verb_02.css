@@ -31,7 +31,7 @@ body {
 }
 
 .shape {
-  background: solid transparent
+  background: hsl(252, 92%, 85%);
   width: 300px;
   height: 500px;
 }
@@ -69,14 +69,3 @@ body {
 }
 
 
-.transforms {
-  transform: rotateZ(45deg);
-  transform: rotateX(45deg);
-  transform: rotateY(45deg);
-  transform: skewX(45deg);
-  transform: skewY(45deg);
-  transform: scaleX(1.5);
-  transform: scaleY(1.5);
-  transform: translateX(50px);
-  transform: translateY(50px);
-}
