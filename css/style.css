@@ -47,7 +47,9 @@ body {
   text-align: center;
   color: hsl(252, 92%, 85%);
 }
-
+a{
+  color: hsl(252, 92%, 85%);
+}
 
 
 
