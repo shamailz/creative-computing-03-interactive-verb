@@ -48,5 +48,4 @@ var shape = document.querySelector(".shape");
 var background = randomNumber(0, 359);
 var borderColor = randomNumber(0, 359);
 
-shape.style.background = hslColor(background, 40, 75);
 shape.style.borderColor = hslColor(borderColor, 60, 70);
