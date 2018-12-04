@@ -63,6 +63,7 @@ body {
   width: 100px;
   height: 75px;
   animation-name: down;
+  animation-duration: 0.3s;
   animation-iteration-count: infinite;
 }
 
