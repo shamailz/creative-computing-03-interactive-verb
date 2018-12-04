@@ -43,27 +43,13 @@ function hslColor(h, s, l) {
   return color;
 }
 
-
-
-/* 
-
-TO DO:
-
-1. Randomize shape width
-2. Randomize shape height
-3. Randomize shape color
-4. Randomize background color
-5. Randomize border color
-
-*/
-
 var shape = document.querySelector(".shape");
 
 var h = randomNumber(0, 179);
 var s = randomNumber(0, 100);
 var l = randomNumber(0, 100);
 
-shape.style.backgroundColor = hslColor (h, s, l);
+shape.style.backgroundColor = hslColor (backgroundColor, backgroundColor, backgroundColor);
 
 
 
