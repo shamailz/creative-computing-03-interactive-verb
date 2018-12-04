@@ -45,6 +45,12 @@ function hslColor(h, s, l) {
 
 var shape = document.querySelector(".shape");
 
+var width = randomNumber(100, 600);
+var height = randomNumber(200, 500);
+
+shape.style.width = width + "px";
+shape.style.height= height + "px";
+
 var background = randomNumber(50, 150);
 var borderColor = randomNumber(100, 350);
 
