@@ -50,7 +50,7 @@ for ( var i = 0; i < 500; i++) {
   //add class "shape" to div
   shape.classList.add('shape');
 
-  var duration = randomNumber (500,1000);
+  var duration = randomNumber (1000,5000);
 
   
   shape.style.animationDuration = duration + 'ms';
