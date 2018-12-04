@@ -60,7 +60,7 @@ a:visited{
 a:hover {
   color: hsl(252, 92%, 65%);
 }
-.verb h1:mouseover{
+.verb h1:hover{
   color: hsl(252, 92%, 65%);
 }
 
