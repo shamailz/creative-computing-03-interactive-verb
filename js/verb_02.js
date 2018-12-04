@@ -43,13 +43,13 @@ function hslColor(h, s, l) {
   return color;
 }
 
-var shape = document.querySelector(".shape");
+var bye = document.querySelector(".bye");
 
 var h = randomNumber(0, 359);
 var s = randomNumber(0, 100);
 var l = randomNumber(0, 100);
 
-shape.style.background = hslColor(h, s, l);
+bye.style.background = hslColor(h, s, l);
 
 
 
