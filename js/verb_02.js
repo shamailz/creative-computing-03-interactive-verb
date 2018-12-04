@@ -37,15 +37,37 @@ function hslColor(h, s, l) {
   var luminance = l + "%";
 
   var color = "hsl(" + hue + "," + saturation + "," + luminance + ")";
-  
-  var R = (Math.floor(Math.random() * 255)),
-    G = (Math.floor(Math.random() * 255)),
-    B = (Math.floor(Math.random() * 255)),
-    randColor = 'rgb(' + R + ', ' + G + ',' + B + ')';
-    context.fillStyle=randColor;
 
   return color;
 }
+
+
+
+/* 
+
+TO DO:
+
+1. Randomize shape width
+2. Randomize shape height
+3. Randomize shape color
+4. Randomize background color
+5. Randomize border color
+
+*/
+
+var shape = document.querySelector(".shape");
+
+var width = randomNumber(150, 700); 
+var height = randomNumber(250,1000);
+
+shape.style.width = width + "px";
+shape.style.height= height + "px";
+
+var h = randomNumber(0, 179);
+
+shape.style.background = hslColor (h, 90, 50);
+
+
 
 
 
