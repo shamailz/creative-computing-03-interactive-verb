@@ -13,6 +13,7 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   font-family: 'Fredoka One', cursive;
+  font-color: hsl(252, 92%, 85%);
 }
 
 .center {
